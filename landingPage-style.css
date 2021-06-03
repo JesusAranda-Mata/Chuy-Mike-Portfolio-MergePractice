@@ -1,0 +1,29 @@
+.clearfix .portfolio:hover{
+        transform: scale(1.5, 1.5);
+        transition: all 0.5s; 
+}
+
+.clearfix .about:hover{
+    transform: scale(1.5, 1.5);
+    transition: 1s; 
+}
+
+.clearfix .contact:hover{
+    transform: scale(1.5, 1.5);
+    transition: 1s; 
+}
+
+.portfolio:hover,
+    .about:hover,
+    .contact:hover{
+        transition: transform 0.5s linear; 
+}
+
+li  a:active{
+    animation: fontChange 0.25s linear;
+}
+
+@keyframes fontChange {
+   100%{background-color: blue;}
+   100%{font-size:medium;}
+}
